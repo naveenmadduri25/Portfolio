@@ -1,0 +1,130 @@
+.portfolio-body {
+  padding-top: 9rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 10rem;
+}
+
+.portfolio-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+  text-align: center;
+  padding-top: 3rem;
+  color: #fcc028;
+}
+.portfolio-header {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+  padding-bottom: 3rem;
+
+  color: rgba(0, 0, 0, 0.81);
+}
+.explore-all {
+  text-decoration: none;
+  padding-left: 82%;
+  padding-bottom: 0rem;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #fcc028;
+}
+.portfolio-container {
+  padding-top: 2rem;
+}
+.img1-1 > img {
+  width: 100%;
+}
+
+.img1-2 > img {
+  width: 100%;
+}
+.img2-1 > img {
+  width: 100%;
+}
+.img2-2 > img {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .portfolio-body {
+    padding: 0;
+    display: block;
+    width: 100%;
+  }
+  .portfolio-title {
+    text-align: center;
+    width: 100%;
+  }
+  .portfolio-header {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    font-size: 24px;
+  }
+  .explore-all {
+    padding: 0rem;
+    float: none;
+    margin-left: 53%;
+    padding-bottom: 0rem;
+  }
+  .portfolio-container {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: none;
+  }
+  .part-1 {
+    padding-top: 0rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-bottom: 0rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  .img1-1 > img {
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+    padding-left: 1.4rem;
+    padding-bottom: 1rem;
+  }
+  .img1-2 > img {
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+    padding-left: 1.4rem;
+    padding-bottom: 1rem;
+  }
+  .part-2 {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .img2-1 > img {
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+    padding-left: 1.4rem;
+    padding-bottom: 1rem;
+  }
+  .img2-2 > img {
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+    padding-left: 1.4rem;
+    padding-bottom: 1rem;
+  }
+}

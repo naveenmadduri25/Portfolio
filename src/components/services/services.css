@@ -1,0 +1,107 @@
+.services-body {
+  padding-top: 3rem;
+}
+
+.s-info {
+  text-align: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+
+  color: #fcc028;
+}
+.s-title {
+  text-align: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.1556px;
+  line-height: 47px;
+
+  color: rgba(0, 0, 0, 0.81);
+}
+.s-explore {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.6042px;
+  line-height: 22px;
+  padding-left: 80%;
+  color: #fcc028;
+}
+
+.services-heading {
+  text-align: center;
+  padding: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.4722px;
+  line-height: 29px;
+
+  color: rgba(0, 0, 0, 0.81);
+}
+.services-content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6042px;
+  line-height: 22px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.threepics {
+  display: flex;
+  gap: 0rem;
+  justify-content: center;
+}
+.spic1 > img {
+  width: 100%;
+}
+.spic2 > img {
+  width: 100%;
+}
+.spic3 > img {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .threepics {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .services-body {
+    width: 100%;
+    padding: 0rem;
+    padding-top: 3rem;
+  }
+  .s-info {
+    width: 100%;
+    text-align: center;
+    padding: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  .s-title {
+    width: 100%;
+    text-align: center;
+    padding: 0rem;
+    padding-bottom: 0.5rem;
+  }
+  .services-content {
+    padding-bottom: 2rem;
+  }
+  .s-explore {
+    white-space: nowrap;
+    width: 100%;
+    margin-left: 56%;
+    padding: 0rem;
+    padding-bottom: 0.5rem;
+  }
+}

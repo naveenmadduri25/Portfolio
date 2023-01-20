@@ -1,0 +1,139 @@
+.t-info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+}
+.t-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 31.1556px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 0.81);
+  padding-bottom: 4rem;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 2rem;
+
+  margin-bottom: 20px;
+
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/online-ae150.appspot.com/o/Untitled%20design.jpg?alt=media&token=181c8005-5ce6-4fb7-8fa6-f652a523815e");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+}
+
+.buttons-container {
+  display: flex;
+
+  margin-top: 6.5%;
+  margin-right: 50%;
+  margin-bottom: 8rem;
+  position: absolute;
+}
+.left-B {
+  padding-left: 10px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  border: none;
+  background: #fcc028;
+  border-radius: 9.73611px 0px 0px 9.73611px;
+}
+.right-B {
+  padding-right: 10px;
+  padding-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  border: none;
+  background: #fcc028;
+  border-radius: 0px 9.73611px 9.73611px 0px;
+}
+.card-img {
+  position: absolute;
+  margin-top: -40px;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  margin-left: 12rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 769.15px;
+  height: 209.33px;
+  left: 465.39px;
+  top: 252.17px;
+
+  background: #ffffff;
+  box-shadow: 0px 3.89444px 19.4722px rgba(19, 23, 61, 0.1);
+  border-radius: 18.8995px;
+  margin-left: 12%;
+}
+
+.sub-content {
+  width: 508.22px;
+  height: 40px;
+  left: 130.46px;
+  top: 84.7px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.6306px;
+  line-height: 20px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.5);
+}
+.author-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.5778px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.author-desognation {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.6569px;
+  line-height: 19px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.right {
+  margin-left: auto;
+  font-size: 40px;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
+
+.left {
+  margin-right: auto;
+  font-size: 40px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}

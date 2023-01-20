@@ -1,0 +1,49 @@
+.ourclients {
+  padding-bottom: 9rem;
+}
+.ourclients-info {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+  padding-top: 8rem;
+}
+.ourclients-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 501;
+  font-size: 31.1556px;
+  line-height: 47px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.81);
+}
+.clients {
+  padding-top: 7rem;
+  padding-left: 0rem;
+}
+.logo {
+  padding: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .ourclients {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+  .ourclients-info {
+    padding-top: 0rem;
+  }
+  .clients {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 2rem;
+  }
+}

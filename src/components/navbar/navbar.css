@@ -1,0 +1,87 @@
+.nav-body {
+  display: flex;
+  flex-direction: row;
+}
+.nav-logo {
+  padding-top: 1.25rem;
+  padding-left: 0rem;
+  width: 5%;
+}
+.nav-button-container {
+  padding-top: 1rem;
+}
+.navbar {
+  padding-top: 0.35rem;
+  width: 78%;
+}
+.about {
+  padding-right: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 501;
+  font-size: 15px;
+}
+.services {
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 501;
+  font-size: 15px;
+}
+.portfolio {
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 501;
+  font-size: 15px;
+}
+.testimonials {
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 501;
+  font-size: 15px;
+}
+.contact {
+  padding-left: 0rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 501;
+  font-size: 15px;
+}
+.navbutton-Container {
+  padding-left: 4rem;
+  white-space: nowrap;
+}
+.Button {
+  width: 95%;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 0.5rem;
+  color: white;
+  border-radius: 4.86806px;
+  background-color: #fcc028;
+  border: none;
+}
+
+.nav-logo-right {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-logo {
+    display: none;
+  }
+  .nav-logo-right {
+    padding-top: 1.25rem;
+    display: block;
+    width: 35%;
+  }
+  .navbar {
+    width: 50%;
+  }
+  .menu {
+    margin-right: auto;
+    padding-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}

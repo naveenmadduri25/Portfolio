@@ -1,0 +1,213 @@
+.about-body {
+  padding-top: 5.75rem;
+  display: flex;
+}
+.aboutpart1 {
+  width: 50%;
+}
+.aboputpart2 {
+  width: 50%;
+}
+.about-info {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 501;
+  font-size: 19.4722px;
+  line-height: 29px;
+  color: #fcc028;
+}
+.about-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 401;
+  font-size: 38.9444px;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.about-text {
+  width: 93%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 499;
+  font-size: 17.525px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.about-container {
+  padding-top: 1rem;
+  display: flex;
+}
+.experience {
+  display: flex;
+  padding-top: 2rem;
+}
+.Experience-heading {
+  padding-bottom: 0rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 501;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+  padding-left: 0.75rem;
+}
+.Experience-text {
+  padding-left: 0.75rem;
+  padding-right: 0.25rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 401;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #000000;
+}
+.about-projects-container {
+  padding-top: 2rem;
+
+  padding-left: 2rem;
+  display: flex;
+}
+
+.projects-heading {
+  padding-bottom: 0rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 501;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+  padding-left: 0.75rem;
+}
+.projects-content {
+  padding-left: 0.75rem;
+  padding-right: 0.25rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 401;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #000000;
+}
+.about-support {
+  display: flex;
+  padding-top: 3rem;
+  margin-top: 10px;
+}
+.support-heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 501;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #fcc028;
+  padding-left: 0.75rem;
+}
+.support-content {
+  padding-left: 0.75rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 401;
+  font-size: 15.5778px;
+  line-height: 23px;
+  color: #000000;
+}
+.about-button-container {
+  width: 50%;
+  padding-top: 3rem;
+  display: flex;
+}
+.about-hireme-btn {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.55rem;
+  padding-left: 0.55rem;
+  gap: 10px;
+  background: #fcc028;
+  border-radius: 4.86806px;
+  color: white;
+  border: none;
+}
+.about-downlaod-btn {
+  width: 100%;
+  padding-left: 0rem;
+  border: none;
+  background: none;
+  padding-top: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.6042px;
+  line-height: 22px;
+  color: #000000;
+}
+.about-download-cvpic {
+  padding-left: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .about-body {
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+  }
+  .about-row {
+    width: 100;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about-info {
+    width: 100%;
+    text-align: center;
+  }
+  .about-title {
+    width: 100%;
+    text-align: center;
+  }
+  .about-content {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .about-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .experience {
+    padding-left: 1.8rem;
+  }
+  .about-support-container {
+    padding-top: 1.5rem;
+    /* padding-left: 6.75rem; */
+    margin-left: 31%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .about-projects-container {
+    display: flex;
+    padding: 0rem;
+    padding-top: 1.5rem;
+  }
+  .projects-image {
+    padding: 0rem;
+  }
+  .about-button-container {
+    width: 100%;
+  }
+  .about-hireme-btn {
+    width: 40%;
+    padding: 0.5rem 0rem 0.5rem 0;
+  }
+  .about-downlaod-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-left: 0rem;
+  }
+}
