@@ -17,7 +17,10 @@ const testimonials = () => {
 function TestimonialCard() {
   return (
     <div className="testimonial-card">
-      <img className="card-img" src={ELLIPSE2} alt="card profile picture" />
+      <img
+        className="card-img"
+        src="https://firebasestorage.googleapis.com/v0/b/portfolio-39221.appspot.com/o/Portfolio-Images%2FEllipse%202.png?alt=media&token=8b76ec18-e2be-4a57-bd62-6e35c56df6ab"
+      />
       <div className="content">
         <RiDoubleQuotesL className="left" />
         <div className="sub-content">
@@ -31,26 +34,23 @@ function TestimonialCard() {
         </div>
         <RiDoubleQuotesR className="right" />
       </div>
-      <div className="buttons-container">
-        <div
-          btn
-          className="left-B  "
+      <div className="ButtonsContainer">
+        <button
+          className="leftB"
           onClick={() => {
             console.log("Left Button Clicked");
           }}
         >
           ←
-        </div>
-        <div
-          btn
-          btn-primary
-          className="right-B "
+        </button>
+        <button
+          className="rightB"
           onClick={() => {
             console.log("Right Button Clicked");
           }}
         >
           →
-        </div>
+        </button>
       </div>
     </div>
   );

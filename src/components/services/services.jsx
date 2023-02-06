@@ -17,7 +17,7 @@ const services = () => {
       <div className="services-body">
         <Container>
           <Row>
-            <Col className="spic1 col-lg-4 col-mg-8 col-sm-12">
+            <div className="spic1 col-lg-4 col-mg-8 col-sm-12">
               <img src={FRAME} alt="services frame picture" />
               <div className="services-heading"> Landing page design</div>
               <div className="services-content">
@@ -25,8 +25,8 @@ const services = () => {
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s
               </div>
-            </Col>
-            <Col className="spic2 col-lg-4 col-md-8 col-sm-12">
+            </div>
+            <div className="spic2 col-lg-4 col-md-8 col-sm-12">
               <img src={FRAME1} alt="services frame picture2" />
               <div className="services-heading">Mobile App Design</div>
               <div className="services-content">
@@ -35,7 +35,7 @@ const services = () => {
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s
               </div>
-            </Col>
+            </div>
 
             <Col className="spic3 col-lg-4 col-md-8 col-sm-12">
               <img src={FRAME2} alt="services frame picture3" />
